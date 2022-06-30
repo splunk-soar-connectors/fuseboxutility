@@ -65,7 +65,7 @@ class FuseBoxConnector(phantom.BaseConnector):
                     return content
             else:
                 return None
-        except  Exception as e:
+        except Exception as e:
             self.debug_print("Exception occur while getting rest data. Exception: {}".format(e))
             return None
 
