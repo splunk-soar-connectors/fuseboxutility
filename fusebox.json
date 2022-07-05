@@ -11,12 +11,13 @@
     "product_version_regex": ".*",
     "publisher": "Mhike",
     "license": "Copyright (c) Mhike, 2022",
-    "app_version": "1.4.0",
+    "app_version": "1.0.0",
     "utctime_updated": "2022-06-21T21:49:46.498858Z",
     "package_name": "phantom_fusebox",
     "main_module": "fusebox_connector.py",
-    "min_phantom_version": "5.2.0",
+    "min_phantom_version": "4.9.0",
     "app_wizard_version": "1.0.0",
+    "fips_compliant": false,
     "contributors": [
         {
             "name": "Mhike"
