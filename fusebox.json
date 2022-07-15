@@ -68,7 +68,7 @@
         {
             "action": "check fuse",
             "description": "Check to see if this is the first with this unique identifier",
-            "verbose": "Check to see if this is the first with this unique identifier. If so, it will return false for tripped_fuse (and is_duplicate if you don't like all this fuse shenanigans). Otherwise it will 'trip the fuse' and return True.",
+            "verbose": "Search the custom list for this unique identifier. If not found the identifier will be added to the list and false will be returned for tripped_fuse (and is_duplicate if you don't like all this fuse shenanigans). Otherwise it will 'trip the fuse' and return True.",
             "type": "generic",
             "identifier": "check_fuse",
             "read_only": false,
