@@ -2,7 +2,7 @@
 # Fuse Box
 
 Publisher: Mhike  
-Connector Version: 1\.0\.1  
+Connector Version: 1\.0\.2  
 Product Vendor: Mhike  
 Product Name: Fuse Box  
 Product Version Supported (regex): "\.\*"  
@@ -43,7 +43,7 @@ Check to see if this is the first with this unique identifier
 Type: **generic**  
 Read only: **False**
 
-Check to see if this is the first with this unique identifier\. If so, it will return false for tripped\_fuse \(and is\_duplicate if you don't like all this fuse shenanigans\)\. Otherwise it will 'trip the fuse' and return True\.
+Search the custom list for this unique identifier\. If not found the identifier will be added to the list and false will be returned for tripped\_fuse \(and is\_duplicate if you don't like all this fuse shenanigans\)\. Otherwise it will 'trip the fuse' and return True\.
 
 #### Action Parameters
 PARAMETER | REQUIRED | DESCRIPTION | TYPE | CONTAINS
