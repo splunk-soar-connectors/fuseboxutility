@@ -10,7 +10,7 @@
     "python_version": "3",
     "product_version_regex": ".*",
     "publisher": "Mhike",
-    "license": "Copyright (c) Mhike, 2022",
+    "license": "Copyright (c) Mhike, 2022-2025",
     "app_version": "1.0.2",
     "utctime_updated": "2022-07-15T16:05:21.000000Z",
     "package_name": "phantom_fusebox",
