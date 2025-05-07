@@ -51,7 +51,7 @@ class FuseBoxConnector(phantom.BaseConnector):
         self.__print("_get_base_url()", True)
         rest_url = phrules.build_phantom_rest_url()
         scheme, netloc, _, _, _ = urllib.parse.urlsplit(rest_url)
-        return urllib.parse.urlunsplit((scheme, netloc, '', '', ''))
+        return urllib.parse.urlunsplit((scheme, netloc, "", "", ""))
 
     def _get_list_data(self, list_name):
         self.__print("_get_list_data()", True)

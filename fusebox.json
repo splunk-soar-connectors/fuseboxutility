@@ -129,11 +129,5 @@
             "output": [],
             "versions": "EQ(*)"
         }
-    ],
-    "custom_made": true,
-    "directory": "fusebox_fad3cfec-b8a0-4a0c-9579-c26bb4abde3a",
-    "version": 1,
-    "appname": "-",
-    "executable": "spawn3",
-    "disabled": false
+    ]
 }
