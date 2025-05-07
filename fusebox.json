@@ -38,20 +38,13 @@
             "name": "retention_limit",
             "id": 1
         },
-        "https_port": {
-            "description": "Splunk SOAR HTTPS port if your instance uses one other than 443",
-            "data_type": "string",
-            "order": 2,
-            "name": "https_port",
-            "id": 2
-        },
         "debug": {
             "description": "Print debugging statements to log",
             "data_type": "boolean",
             "default": false,
-            "order": 3,
+            "order": 2,
             "name": "debug",
-            "id": 3
+            "id": 2
         }
     },
     "actions": [
