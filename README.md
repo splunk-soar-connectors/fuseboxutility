@@ -16,7 +16,6 @@ VARIABLE | REQUIRED | TYPE | DESCRIPTION
 -------- | -------- | ---- | -----------
 **dedicated_custom_list** | optional | string | Specify the name of the custom list that will be used as the data record for Fuse Box |
 **retention_limit** | optional | numeric | The number of days to retain records in the list. If Fuse Box runs slower than expected, lower retention |
-**https_port** | optional | string | Splunk SOAR HTTPS port if your instance uses one other than 443 |
 **debug** | optional | boolean | Print debugging statements to log |
 
 ### Supported Actions
