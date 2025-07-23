@@ -47,12 +47,7 @@ class FuseBoxConnector(phantom.BaseConnector):
 
     def _get_base_url(self):
         self.__print("_get_base_url()", True)
-        port = 443
-        try:
-            port = self.get_config()["https_port"]
-        except:
-            pass
-        return f"https://127.0.0.1:{port}"
+        return self.get_phantom_base_url()
 
     def _get_list_data(self, list_name):
         self.__print("_get_list_data()", True)
