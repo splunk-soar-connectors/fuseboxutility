@@ -1,7 +1,7 @@
 # Fuse Box
 
 Publisher: Mhike \
-Connector Version: 1.0.2 \
+Connector Version: 1.0.3 \
 Product Vendor: Mhike \
 Product Name: Fuse Box \
 Minimum Product Version: 4.9.0
